@@ -1,0 +1,184 @@
+{
+  "tests": [
+    {
+      "name": "m1.1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m1,100",
+      "output": "8",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m1.2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m1,0",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m1.3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m1,-1",
+      "output": "-1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m2.1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m2,100,5",
+      "output": "14",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m2.2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m2,10,50",
+      "output": "-1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m2.3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m2,-10,50 ",
+      "output": "-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m2.4",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m2,10,-10",
+      "output": "-1",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "m2.5",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m2,10,0",
+      "output": "-1",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "m3.1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m3,200,10,50",
+      "output": "1466296.259876253",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m3.2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m3,10,-10,50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m3.3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m3,10,5,-50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m3.4",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m3,10,10,0",
+      "output": "10.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m3.5",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m3,-10,10,50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m4.1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m4,-100,25,5,50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m4.2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m4,100,-25,5,50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m4.3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m4,100,25,-5,50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m4.4",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m4,100,25,5,-50",
+      "output": "-1.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "m4.5",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "m4,100,25,5,50",
+      "output": "71.11900599061948",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
