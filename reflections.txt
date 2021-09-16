@@ -1,0 +1,41 @@
+Method 1.
+
+* Should you do this recursively? Or iteratively? (2 pts)
+
+* Why? (5 pts)
+
+* What edge cases should you consider? (3 pts)
+
+* If there were 1000 moose today, how long ago did the first moose arrive(3 pts)
+
+Method 2
+* Should you do this recursively? Or iteratively? (2 pts)
+
+* Why? (5 pts)
+
+* What edge cases should you consider? (3 pts)
+
+* If there are at least 1000 moose today, how long ago did the first 12 moose arrive(3 pts)
+
+
+
+Method 3
+
+* Should you do this recursively? Or iteratively? (2 pts)
+
+* Why? (5 pts)
+
+* What edge cases should you consider? (3 pts)
+
+* If you start with 180 moose and 10 wolves, what is the moose population in 50 years(3 pts)?
+
+
+Method 4
+* Should you do this recursively? Or iteratively? (5 pts)
+
+* Why? (5 pts)
+
+* What edge cases should you consider? (5 pts)
+
+* How many Moose should you start with if you begin with 5 wolves and want to
+  reach a population of 500 moose and 25 wolves at some point within the next 50 years?
