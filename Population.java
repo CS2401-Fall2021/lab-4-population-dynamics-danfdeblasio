@@ -16,7 +16,7 @@ public class Population {
         currentMoosePop -= newMoose;
         currentMoosePop += deadMoose;
         
-        if((int)currentMoosePop > 1) return 1 + getInitialStartTimeForMoose1((int)currentMoosePop);
+        if((int)currentMoosePop >= 1) return 1 + getInitialStartTimeForMoose1((int)currentMoosePop);
         return 0;
     }
     public static int getInitialStartTimeForMoose2(double currentMoosePop, double startingMoosePopulation) {
