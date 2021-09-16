@@ -34,7 +34,7 @@ public class Population {
         currentMoosePop += deadMoose;
         
         if((int)currentMoosePop >= startingMoosePopulation) return 1 + getInitialStartTimeForMoose2((int)currentMoosePop, startingMoosePopulation);
-        return 0;
+        return 0; 
     }
     public static double getMoosePopulationWithWolves(double currentMoosePop, double currentWolfPopulation, int years) {
 
