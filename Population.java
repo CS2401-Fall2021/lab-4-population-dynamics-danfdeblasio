@@ -7,7 +7,7 @@ public class Population {
     }
     public static int getInitialStartTimeForMoose1(double currentMoosePop) {
 
-        if(currentMoosePop <= 0) return -1;
+        if(currentMoosePop < 0) return -1;
         double mooseBirthRate = 1.0/2.0;
         double mooseDeathRate = 1.0/6.0;
         
