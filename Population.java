@@ -25,7 +25,7 @@ public class Population {
       if(currentMoosePop < 0) return -1;
       if(currentMoosePop < startingMoosePopulation) return 0;
       
-        double mooseBirthRate = 1.0/2.0;
+        double mooseBirthRate = 1.0/2.0; 
         double mooseDeathRate = 1.0/6.0;
         
         double newMoose = currentMoosePop * mooseBirthRate;
