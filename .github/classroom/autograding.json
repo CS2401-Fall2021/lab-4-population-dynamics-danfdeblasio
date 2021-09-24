@@ -8,7 +8,7 @@
       "output": "8",
       "comparison": "exact",
       "timeout": 10,
-      "points": 2
+      "points": 10
     },
     {
       "name": "m1.2",
@@ -38,7 +38,7 @@
       "output": "14",
       "comparison": "exact",
       "timeout": 10,
-      "points": 2
+      "points": 10
     },
     {
       "name": "m2.2",
@@ -88,7 +88,7 @@
       "output": "1466296.259876253",
       "comparison": "exact",
       "timeout": 10,
-      "points": 2
+      "points": 10
     },
     {
       "name": "m3.2",
@@ -178,7 +178,7 @@
       "output": "71.11900599061948",
       "comparison": "exact",
       "timeout": 10,
-      "points": 2
+      "points": 10
     }
   ]
 }
