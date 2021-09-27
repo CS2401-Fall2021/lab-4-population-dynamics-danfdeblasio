@@ -85,8 +85,8 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "m3,200,10,50",
-      "output": "1466296.259876253",
-      "comparison": "exact",
+      "output": "1466296.259876",
+      "comparison": "included",
       "timeout": 10,
       "points": 10
     },
@@ -175,8 +175,8 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "m4,100,25,5,50",
-      "output": "71.11900599061948",
-      "comparison": "exact",
+      "output": "71.119005990",
+      "comparison": "included",
       "timeout": 10,
       "points": 10
     }
