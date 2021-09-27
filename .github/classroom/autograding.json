@@ -6,7 +6,7 @@
       "run": "java -cp . Test",
       "input": "m1,100",
       "output": "8",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 10
     },
@@ -16,7 +16,7 @@
       "run": "java -cp . Test",
       "input": "m1,0",
       "output": "0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -26,7 +26,7 @@
       "run": "java -cp . Test",
       "input": "m1,-1",
       "output": "-1",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -36,7 +36,7 @@
       "run": "java -cp . Test",
       "input": "m2,100,5",
       "output": "14",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 10
     },
@@ -46,7 +46,7 @@
       "run": "java -cp . Test",
       "input": "m2,10,50",
       "output": "-1",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -66,7 +66,7 @@
       "run": "java -cp . Test",
       "input": "m2,10,-10",
       "output": "-1",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 2,
       "points": 2
     },
@@ -76,7 +76,7 @@
       "run": "java -cp . Test",
       "input": "m2,10,0",
       "output": "-1",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 2,
       "points": 2
     },
@@ -96,7 +96,7 @@
       "run": "java -cp . Test",
       "input": "m3,10,-10,50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -106,7 +106,7 @@
       "run": "java -cp . Test",
       "input": "m3,10,5,-50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -116,7 +116,7 @@
       "run": "java -cp . Test",
       "input": "m3,10,10,0",
       "output": "10.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -126,7 +126,7 @@
       "run": "java -cp . Test",
       "input": "m3,-10,10,50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -136,7 +136,7 @@
       "run": "java -cp . Test",
       "input": "m4,-100,25,5,50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -146,7 +146,7 @@
       "run": "java -cp . Test",
       "input": "m4,100,-25,5,50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -156,7 +156,7 @@
       "run": "java -cp . Test",
       "input": "m4,100,25,-5,50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
@@ -166,7 +166,7 @@
       "run": "java -cp . Test",
       "input": "m4,100,25,5,-50",
       "output": "-1.0",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": 2
     },
