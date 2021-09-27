@@ -6,14 +6,36 @@ public class Population {
         System.out.println(getStartingMoosePopulationWithWolves(500,25,5, 50));
     }
     public static int getInitialStartTimeForMoose1(double currentMoosePop) {
+
+        if(currentMoosePop < 0) return -1;
         double mooseBirthRate = 1.0/2.0;
         double mooseDeathRate = 1.0/6.0;
-      return 0;
+        
+        double newMoose = currentMoosePop * mooseBirthRate;
+        double deadMoose = currentMoosePop* mooseDeathRate;
+        
+        currentMoosePop -= newMoose;
+        currentMoosePop += deadMoose;
+        
+        if((int)currentMoosePop >= 1) return 1 + getInitialStartTimeForMoose1(currentMoosePop);
+        return 0;
     }
     public static int getInitialStartTimeForMoose2(double currentMoosePop, double startingMoosePopulation) {
-        double mooseBirthRate = 1.0/2.0;
+
+      if(currentMoosePop < 0) return -1;
+      if(currentMoosePop < startingMoosePopulation) return 0;
+      
+        double mooseBirthRate = 1.0/2.0; 
         double mooseDeathRate = 1.0/6.0;
-        return 0;
+        
+        double newMoose = currentMoosePop * mooseBirthRate;
+        double deadMoose = currentMoosePop* mooseDeathRate;
+        
+        currentMoosePop -= newMoose;
+        currentMoosePop += deadMoose;
+        
+        if((int)currentMoosePop >= startingMoosePopulation) return 1 + getInitialStartTimeForMoose2((int)currentMoosePop, startingMoosePopulation);
+        return 0; 
     }
     public static double getMoosePopulationWithWolves(double currentMoosePop, double currentWolfPopulation, int years) {
 
